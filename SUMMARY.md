@@ -67,6 +67,7 @@
   * [利用程式物件來快速定義拓樸](python/li-yong-cheng-shi-wu-jian-lai-kuai-su-ding-yi-tuo-pu.md)
   * [類別繼承基本](python/lei-bie-ji-cheng-ji-ben.md)
   * [用logging來Debug腳本](python/yong-logging-lai-debug-jiao-ben.md)
+  * [找出特定目錄底下最早及最近被修改過的檔案](python/zhao-chu-te-ding-mu-lu-di-xia-zui-zao-ji-zui-jin-bei-xiu-gai-guo-de-dang-an.md)
 * [GUI開發](gui-kai-fa/README.md)
   * [如何在GUI當中直接顯示圖片](gui-kai-fa/ru-he-zai-gui-dang-zhong-zhi-jie-xian-shi-tu-pian.md)
   * [輸出Base64字串並取得Base64字串](gui-kai-fa/shu-chu-base64-zi-chuan-bing-qu-de-base64-zi-chuan.md)
