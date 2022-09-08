@@ -4,4 +4,4 @@
 
 但此時會出現一個問題，便是在進行接下來的3D編輯工作時會跳出錯誤視窗(如下圖)，這視窗需要手動才能關閉，導致程式卡住。解決方法是在oDesign.ValidateDesign()之後加入oProject.Save()，這個指令會將Buffer清空。之後在操作3D編輯工作時，錯誤視窗便不會跳出來中斷程式的執行了。
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
