@@ -46,7 +46,7 @@
 * [EDB](edb/README.md)
   * [在stackup當中插入新的layers](edb/zai-stackup-dang-zhong-cha-ru-xin-de-layers.md)
   * [修改padstack definition某一層的屬性](edb/xiu-gai-padstack-definition-mou-yi-ceng-de-shu-xing.md)
-  * [Copy of T](edb/copy-of-t.md)
+  * [輸出path跟polygon的座標點](edb/shu-chu-path-gen-polygon-de-zuo-biao-dian.md)
   * [輸出元件SolderBall的訊息](edb/shu-chu-yuan-jian-solderball-de-xun-xi.md)
 * [Streamlit](streamlit/README.md)
   * [手動排序項目](streamlit/shou-dong-pai-xu-xiang-mu.md)
