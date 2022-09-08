@@ -19,4 +19,4 @@ model.exportStep('d:/demo12/final.stp') #將shape輸出stp檔
 ```
 {% endcode %}
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>

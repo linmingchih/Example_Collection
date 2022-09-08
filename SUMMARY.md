@@ -10,6 +10,7 @@
     * [如何用程式碼更改AEDT選項設定](aedt-api/desktop/ru-he-yong-cheng-shi-ma-geng-gai-aedt-xuan-xiang-she-ding.md)
     * [如何處理大stp檔案](aedt-api/desktop/ru-he-chu-li-da-stp-dang-an.md)
     * [在HFSS當中取得某一物件顏色並將其顏色設定到另一物件](aedt-api/desktop/zai-hfss-dang-zhong-qu-de-mou-yi-wu-jian-yan-se-bing-jiang-qi-yan-se-she-ding-dao-ling-yi-wu-jian.md)
+    * [如何避免執行ValidateDesign()之後跳出錯誤視窗？](aedt-api/desktop/ru-he-bi-mian-zhi-hang-validatedesign-zhi-hou-tiao-chu-cuo-wu-shi-chuang.md)
   * [HFSS](aedt-api/hfss/README.md)
     * [用來載入激發源設定的csv檔](aedt-api/hfss/yong-lai-zai-ru-ji-fa-yuan-she-ding-de-csv-dang.md)
     * [輸出變數及使用該變數的物件](aedt-api/hfss/shu-chu-bian-shu-ji-shi-yong-gai-bian-shu-de-wu-jian.md)
