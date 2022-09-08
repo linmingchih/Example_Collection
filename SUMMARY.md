@@ -27,6 +27,7 @@
   * [Q3D](aedt-api/q3d/README.md)
     * [輸出Transion Region頻率範圍](aedt-api/q3d/shu-chu-transion-region-bin-shuai-fan-wei.md)
     * [輸出頻率點](aedt-api/q3d/shu-chu-bin-shuai-dian.md)
+    * [如何取得net及其類別和net上面的物件名](aedt-api/q3d/ru-he-qu-de-net-ji-qi-lei-bie-he-net-shang-mian-de-wu-jian-ming.md)
   * [Circuit](aedt-api/circuit/README.md)
     * [用ansysedt.exe讀取網表做電路模擬](aedt-api/circuit/yong-ansysedt.exe-du-qu-wang-biao-zuo-dian-lu-mo-ni.md)
     * [如何背景執行電容Z11模擬並繪圖](aedt-api/circuit/ru-he-bei-jing-zhi-hang-dian-rong-z11-mo-ni-bing-hui-tu.md)
