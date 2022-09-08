@@ -14,4 +14,4 @@ AEDT當中所有的設定都存放在XML檔案當中：C:\Users\\\<UserName>\Doc
 
 其他像是AEDT Option當中的選項設定也可以透過上述的函式來讀取或修改。
 
-<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
