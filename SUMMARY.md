@@ -31,6 +31,7 @@
     * [將RLC網表轉換至矩陣做AC電路求解](aedt-api/circuit/jiang-rlc-wang-biao-zhuan-huan-zhi-ju-zhen-zuo-ac-dian-lu-qiu-jie.md)
     * [如何將.sdf.csv檔轉成sNp檔](aedt-api/circuit/ru-he-jiang-.sdf.csv-dang-zhuan-cheng-snp-dang.md)
 * [T](t.md)
+* [如何處理大stp檔案](ru-he-chu-li-da-stp-dang-an.md)
 * [PyAEDT](pyaedt/README.md)
   * [HFSS](pyaedt/hfss.md)
   * [3D Layout](pyaedt/3d-layout.md)

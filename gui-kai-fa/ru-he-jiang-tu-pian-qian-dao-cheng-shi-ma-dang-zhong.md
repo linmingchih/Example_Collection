@@ -73,4 +73,4 @@ with open('d:/demo/ANSYS_Logo.png', 'wb') as file_to_save:
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
