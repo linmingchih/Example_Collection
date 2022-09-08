@@ -19,6 +19,7 @@
     * [使用ElementTree處理stack.xml](aedt-api/3d-layout/shi-yong-elementtree-chu-li-stack.xml.md)
     * [找出互連的物件群組](aedt-api/3d-layout/zhao-chu-hu-lian-de-wu-jian-qun-zu.md)
     * [如何將tech檔案轉成控制檔](aedt-api/3d-layout/ru-he-jiang-tech-dang-an-zhuan-cheng-kong-zhi-dang.md)
+    * [如何取得3D Layout當中Library所有資料](aedt-api/3d-layout/ru-he-qu-de-3d-layout-dang-zhong-library-suo-you-zi-liao.md)
   * [Q3D](aedt-api/q3d/README.md)
     * [輸出Transion Region頻率範圍](aedt-api/q3d/shu-chu-transion-region-bin-shuai-fan-wei.md)
     * [輸出頻率點](aedt-api/q3d/shu-chu-bin-shuai-dian.md)
