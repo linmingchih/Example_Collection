@@ -57,6 +57,7 @@
   * [找出座標的角度(0-360)](others/zhao-chu-zuo-biao-de-jiao-du-0360.md)
   * [一條線周圍等間距加上vias](others/yi-tiao-xian-zhou-wei-deng-jian-ju-jia-shang-vias.md)
   * [傅立葉轉換](others/fu-li-ye-zhuan-huan.md)
+  * [奇異值分解(SVD, Singular Value Decomposition)](others/qi-yi-zhi-fen-jie-svd-singular-value-decomposition.md)
 * [Python](python/README.md)
   * [類別屬性檢查](python/lei-bie-shu-xing-jian-cha.md)
   * [動態加入方法到物件當中](python/dong-tai-jia-ru-fang-fa-dao-wu-jian-dang-zhong.md)
