@@ -42,6 +42,7 @@
   * [在編輯器環境編寫SIwave腳本](siwave/zai-bian-ji-qi-huan-jing-bian-xie-siwave-jiao-ben.md)
   * [設定Pin Group Port](siwave/she-ding-pin-group-port.md)
   * [如何在匯出Pin Group的設定，並在另一個設計匯入](siwave/ru-he-zai-hui-chu-pin-group-de-she-ding-bing-zai-ling-yi-ge-she-ji-hui-ru.md)
+  * [如何在命令列將.brd轉成.siw](siwave/ru-he-zai-ming-ling-lie-jiang-.brd-zhuan-cheng-.siw.md)
 * [EDB](edb/README.md)
   * [在stackup當中插入新的layers](edb/zai-stackup-dang-zhong-cha-ru-xin-de-layers.md)
   * [修改padstack definition某一層的屬性](edb/xiu-gai-padstack-definition-mou-yi-ceng-de-shu-xing.md)
