@@ -107,3 +107,5 @@ os.system('summary.html')
 print(result)
 ```
 {% endcode %}
+
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>

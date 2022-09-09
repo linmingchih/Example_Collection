@@ -47,4 +47,4 @@ plt.show()
 ```
 {% endcode %}
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption><p>Python計算結果</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21) (1).png" alt=""><figcaption><p>Python計算結果</p></figcaption></figure>
