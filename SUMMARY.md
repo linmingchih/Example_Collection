@@ -46,6 +46,7 @@
     * [如何在AEDT比較不同專案設計的S參數](pyaedt/hfss/ru-he-zai-aedt-bi-jiao-bu-tong-zhuan-an-she-ji-descan-shu.md)
     * [如何輸出HFSS近場資料](pyaedt/hfss/ru-he-shu-chu-hfss-jin-chang-zi-liao.md)
     * [如何輸出HFSS遠場資料](pyaedt/hfss/ru-he-shu-chu-hfss-yuan-chang-zi-liao.md)
+    * [如何輸出任一AEDT專案3D模型不同視角圖片檔](pyaedt/hfss/ru-he-shu-chu-ren-yi-aedt-zhuan-an-3d-mo-xing-bu-tong-shi-jiao-tu-pian-dang.md)
   * [3D Layout](pyaedt/3d-layout/README.md)
     * [3D Layout Cutout](pyaedt/3d-layout/copy-of-t.md)
     * [修改金屬層Etching及Roughness屬性](pyaedt/3d-layout/xiu-gai-jin-shu-ceng-etching-ji-roughness-shu-xing.md)
