@@ -58,7 +58,7 @@
     * [匯出的cir檔案轉成TouchStone檔案](pyaedt/q3d/hui-chu-de-cir-dang-an-zhuan-cheng-touchstone-dang-an.md)
   * [EDB](pyaedt/edb/README.md)
     * [EDB建立PinGroup](pyaedt/edb/edb-jian-li-pingroup.md)
-    * [輸出EDB資料](pyaedt/edb/shu-chu-edb-zi-liao.md)
+    * [輸出EDB資料](pyaedt/t.md)
   * [Circuit](pyaedt/circuit/README.md)
     * [TDR 模擬](pyaedt/circuit/tdr-mo-ni.md)
   * [Other](pyaedt/other/README.md)

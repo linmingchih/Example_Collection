@@ -38,3 +38,5 @@ q3d.save_project('d:/demo/torus.aedt')
 q3d.release_desktop()
 ```
 {% endcode %}
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
