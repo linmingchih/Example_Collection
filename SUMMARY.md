@@ -50,7 +50,6 @@
   * [3D Layout](pyaedt/3d-layout/README.md)
     * [3D Layout Cutout](pyaedt/3d-layout/copy-of-t.md)
     * [修改金屬層Etching及Roughness屬性](pyaedt/3d-layout/xiu-gai-jin-shu-ceng-etching-ji-roughness-shu-xing.md)
-    * [Copy of Copy of T](pyaedt/3d-layout/copy-of-copy-of-t.md)
   * [Q3D](pyaedt/q3d/README.md)
     * [取出Matrix資料並輸出.tsv到EXCEL檢視](pyaedt/q3d/qu-chu-matrix-zi-liao-bing-shu-chu-.tsv-dao-excel-jian-shi.md)
     * [輸出Partia/Mutual/Loop直流電感(DCL)](pyaedt/q3d/shu-chu-partiamutualloop-zhi-liu-dian-gan-dcl.md)
