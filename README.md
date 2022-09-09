@@ -1,10 +1,13 @@
 ---
 description: 在IDE編寫AEDT API腳本
+cover: >-
+  https://previews.123rf.com/images/davidoff205020/davidoff2050202012/davidoff205020201200326/160522284-background-of-multicolored-binary-codes-animation-beautiful-background-with-multi-colored-numbers-of.jpg
+coverY: 0
 ---
 
 # AEDT API
 
-
+開發者可以在IDE當中開發API Script。加入#1-#5即可連結開啟中的AEDT。
 
 {% code lineNumbers="true" %}
 ```python
@@ -13,40 +16,7 @@ from win32com import client
 oApp = client.Dispatch("Ansoft.ElectronicsDesktop.2022.1")
 oDesktop = oApp.GetAppDesktop()
 oDesktop.RestoreWindow()
-oProject = oDesktop.NewProject()
-oDesign = oProject.InsertDesign("HFSS", "HFSSDesign1", "HFSS Terminal Network", "")
-oEditor = oDesign.SetActiveEditor("3D Modeler")
-oEditor.CreateCylinder(
-   [
-      "NAME:CylinderParameters",
-      "XCenter:="       , "0mm",
-      "YCenter:="       , "-0.3mm",
-      "ZCenter:="       , "0mm",
-      "Radius:="    , "0.282842712474619mm",
-      "Height:="    , "0.8mm",
-      "WhichAxis:="     , "Z",
-      "NumSides:="      , "0"
-   ], 
-   [
-      "NAME:Attributes",
-      "Name:="      , "Cylinder1",
-      "Flags:="     , "",
-      "Color:="     , "(143 175 143)",
-      "Transparency:="   , 0,
-      "PartCoordinateSystem:=", "Global",
-      "UDMId:="     , "",
-      "MaterialValue:="  , "\"vacuum\"",
-      "SurfaceMaterialValue:=", "\"\"",
-      "SolveInside:="       , True,
-      "ShellElement:="   , False,
-      "ShellElementThickness:=", "0mm",
-      "IsMaterialEditable:=" , True,
-      "UseMaterialAppearance:=", False,
-      "IsLightweight:="  , False
-   ])
-#oDesktop.QuitApplication()
 ```
 {% endcode %}
 
-<figure><img src=".gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
-
+開發完成之後的script如果要在AEDT當中執行須將#1-#5刪除或標示為註解，使其無效。
