@@ -21,4 +21,4 @@ SaveSiw
 
 滑鼠雙擊convert.bat，幾秒鐘之後生成Galileo\_G87173\_204.siw。開啟Galileo\_G87173\_204.siw如下圖：
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
