@@ -27,4 +27,8 @@ print(x.score)
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+```
+60
+100
+0
+```
