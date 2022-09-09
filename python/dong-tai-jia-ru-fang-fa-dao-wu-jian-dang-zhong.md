@@ -18,3 +18,7 @@ x.add(4)
 print(x.value)
 ```
 {% endcode %}
+
+```
+7
+```
