@@ -13,6 +13,7 @@ from win32com import client
 oApp = client.Dispatch("Ansoft.ElectronicsDesktop.2022.1")
 oDesktop = oApp.GetAppDesktop()
 oDesktop.RestoreWindow()
+
 oProject = oDesktop.NewProject()
 oDesign = oProject.InsertDesign("HFSS", "HFSSDesign1", "HFSS Terminal Network", "")
 oEditor = oDesign.SetActiveEditor("3D Modeler")
