@@ -8,5 +8,28 @@
 
 {% code lineNumbers="true" %}
 ```python
+import time
+class foo():
+    def __init__(self):
+        pass
+    def __getattr__(self, x):
+        self.x = sum(range(100000000))
+        return self.x
+
+obj = foo()
+t0 = time.time()
+print(obj.x)
+print(f'{time.time()-t0}')
+
+t0 = time.time()
+print(obj.x)
+print(f'{time.time()-t0}')
 ```
 {% endcode %}
+
+```
+4999999950000000
+2.853048324584961
+4999999950000000
+0.0
+```

@@ -19,3 +19,7 @@ x.multiply(3)
 print(x)
 ```
 {% endcode %}
+
+```
+[3, 6, 9, 12]
+```
