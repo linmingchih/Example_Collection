@@ -1,7 +1,7 @@
 # Table of contents
 
 * [介紹](README.md)
-* [AEDT API](<README (1).md>)
+* [AEDT API](README.md)
   * [Desktop](aedt-api/desktop/README.md)
     * [輸出Report所有維度的獨立變數](aedt-api/desktop/shu-chu-report-suo-you-wei-du-de-du-li-bian-shu.md)
     * [在AEDT Console執行Script](aedt-api/desktop/zai-aedt-console-zhi-hang-script.md)
