@@ -1,8 +1,5 @@
 ---
 description: 在IDE編寫AEDT API腳本
-cover: >-
-  https://previews.123rf.com/images/davidoff205020/davidoff2050202012/davidoff205020201200326/160522284-background-of-multicolored-binary-codes-animation-beautiful-background-with-multi-colored-numbers-of.jpg
-coverY: 0
 ---
 
 # AEDT API
