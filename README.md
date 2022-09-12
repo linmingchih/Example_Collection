@@ -1,22 +1,21 @@
----
-description: 在IDE編寫AEDT API腳本
-cover: >-
-  https://previews.123rf.com/images/davidoff205020/davidoff2050202012/davidoff205020201200326/160522284-background-of-multicolored-binary-codes-animation-beautiful-background-with-multi-colored-numbers-of.jpg
-coverY: 0
----
+# 介紹
 
-# AEDT API
+範例對於程式開發相當有幫助。本範例集蒐集了不同產品腳本開發常用的功能範例代碼提供給開發者參考。包含了以下幾種類別：
 
-開發者可以在IDE當中開發API Script。加入#1-#5即可連結開啟中的AEDT。
+API
 
-{% code lineNumbers="true" %}
-```python
-from win32com import client
+SIwave
 
-oApp = client.Dispatch("Ansoft.ElectronicsDesktop.2022.1")
-oDesktop = oApp.GetAppDesktop()
-oDesktop.RestoreWindow()
-```
-{% endcode %}
+PyAEDT
 
-開發完成之後的script如果要在AEDT當中執行須將#1-#5刪除或標示為註解，使其無效。
+EDB
+
+Streamlit
+
+Others
+
+Python
+
+GUI Development
+
+Toolkit
