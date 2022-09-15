@@ -35,6 +35,8 @@
     * [AC電路模擬的算法基礎](aedt-api/circuit/ac-dian-lu-mo-ni-de-suan-fa-ji-chu.md)
     * [將RLC網表轉換至矩陣做AC電路求解](aedt-api/circuit/jiang-rlc-wang-biao-zhuan-huan-zhi-ju-zhen-zuo-ac-dian-lu-qiu-jie.md)
     * [如何將.sdf.csv檔轉成sNp檔](aedt-api/circuit/ru-he-jiang-.sdf.csv-dang-zhuan-cheng-snp-dang.md)
+  * [Icepak](aedt-api/icepak/README.md)
+    * [輸出某個面的溫度分布檔案](aedt-api/icepak/shu-chu-mou-ge-mian-de-wen-du-fen-bu-dang-an.md)
 * [SIwave](siwave/README.md)
   * [在編輯器環境編寫SIwave腳本](siwave/zai-bian-ji-qi-huan-jing-bian-xie-siwave-jiao-ben.md)
   * [設定Pin Group Port](siwave/she-ding-pin-group-port.md)

@@ -4,7 +4,7 @@ description: Output Properties of All HFSS Designs in the Project to CSV for Com
 
 # 輸出所有設計屬性
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
