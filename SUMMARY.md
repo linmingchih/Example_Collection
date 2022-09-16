@@ -50,6 +50,7 @@
     * [如何輸出HFSS近場資料](pyaedt/hfss/ru-he-shu-chu-hfss-jin-chang-zi-liao.md)
     * [如何輸出HFSS遠場資料](pyaedt/hfss/ru-he-shu-chu-hfss-yuan-chang-zi-liao.md)
     * [如何輸出任一AEDT專案3D模型不同視角圖片檔](pyaedt/hfss/ru-he-shu-chu-ren-yi-aedt-zhuan-an-3d-mo-xing-bu-tong-shi-jiao-tu-pian-dang.md)
+    * [螺旋電感範例](pyaedt/hfss/luo-xuan-dian-gan-fan-li.md)
   * [3D Layout](pyaedt/3d-layout/README.md)
     * [3D Layout Cutout](pyaedt/3d-layout/copy-of-t.md)
     * [修改金屬層Etching及Roughness屬性](pyaedt/3d-layout/xiu-gai-jin-shu-ceng-etching-ji-roughness-shu-xing.md)
