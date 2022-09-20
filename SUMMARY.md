@@ -60,6 +60,7 @@
     * [輸出Partia/Mutual/Loop直流電感(DCL)](pyaedt/q3d/shu-chu-partiamutualloop-zhi-liu-dian-gan-dcl.md)
     * [輸出Touchstone及SPICE模型](pyaedt/q3d/shu-chu-touchstone-ji-spice-mo-xing.md)
     * [匯出的cir檔案轉成TouchStone檔案](pyaedt/q3d/hui-chu-de-cir-dang-an-zhuan-cheng-touchstone-dang-an.md)
+    * [匯入MCM檔案到Q3D](pyaedt/q3d/hui-ru-mcm-dang-an-dao-q3d.md)
   * [EDB](pyaedt/edb/README.md)
     * [EDB建立PinGroup](pyaedt/edb/edb-jian-li-pingroup.md)
     * [輸出EDB資料](pyaedt/t.md)
