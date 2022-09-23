@@ -12,6 +12,7 @@
     * [如何處理大stp檔案](aedt-api/desktop/ru-he-chu-li-da-stp-dang-an.md)
     * [取得某一物件顏色並將其顏色設定到另一物件](aedt-api/desktop/qu-de-mou-yi-wu-jian-yan-se-bing-jiang-qi-yan-se-she-ding-dao-ling-yi-wu-jian.md)
     * [如何避免執行ValidateDesign()之後跳出錯誤視窗？](aedt-api/desktop/ru-he-bi-mian-zhi-hang-validatedesign-zhi-hou-tiao-chu-cuo-wu-shi-chuang.md)
+    * [檢查 intersect物件](aedt-api/desktop/jian-cha-intersect-wu-jian.md)
   * [修改License類型](aedt-api/xiu-gai-license-lei-xing.md)
   * [HFSS](aedt-api/hfss/README.md)
     * [用來載入激發源設定的csv檔](aedt-api/hfss/yong-lai-zai-ru-ji-fa-yuan-she-ding-de-csv-dang.md)
