@@ -47,7 +47,7 @@
 * [PyAEDT](pyaedt/README.md)
   * [HFSS](pyaedt/hfss/README.md)
     * [參數化結構範例](pyaedt/hfss/can-shu-hua-jie-gou-fan-li.md)
-    * [輸出一個專案當中所有設計的屬性值到CSV檔當中方便做比較](pyaedt/hfss/copy-of-t.md)
+    * [輸出專案當中所有設計的屬性值](pyaedt/hfss/shu-chu-zhuan-an-dang-zhong-suo-you-she-ji-de-shu-xing-zhi.md)
     * [如何在AEDT比較不同專案設計的S參數](pyaedt/hfss/ru-he-zai-aedt-bi-jiao-bu-tong-zhuan-an-she-ji-descan-shu.md)
     * [如何輸出HFSS近場資料](pyaedt/hfss/ru-he-shu-chu-hfss-jin-chang-zi-liao.md)
     * [如何輸出HFSS遠場資料](pyaedt/hfss/ru-he-shu-chu-hfss-yuan-chang-zi-liao.md)
