@@ -8,13 +8,13 @@
 
 <figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 
+以下為電壓電流方程組：
+
 $$
 V_1=1\\I_1-I_2-I_3=0\\I_3-I_4=0\\V_2-RI_4=0\\V_1-\frac{I_2}{jwC}=0\\V_1-V_2-jwLI_3=0
 $$
 
-​
-
-<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption><p>電壓電流方程組</p></figcaption></figure>
+以下為電壓電流方程式矩陣表示法：
 
 $$
 \begin{bmatrix}1 & 0 & 0 & 0 & 0 & 0 
@@ -36,8 +36,6 @@ I_4
 {array}\right)
 =\left(\begin{array}{c}1\\0\\0\\0\\0\\0\end{array}\right)
 $$
-
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption><p>電壓電流方程式矩陣表示法</p></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
