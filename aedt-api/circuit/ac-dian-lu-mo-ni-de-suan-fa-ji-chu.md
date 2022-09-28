@@ -16,6 +16,27 @@ $$
 
 <figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption><p>電壓電流方程組</p></figcaption></figure>
 
+$$
+\begin{bmatrix}1 & 0 & 0 & 0 & 0 & 0 
+\\0 & 0 & 1 & -1 & -1 & 0 
+\\0 & 0 & 0 & 0 & 1 & -1
+\\0 & 1 & 0 & 0 & 0 & -R
+\\1 & 0 & 0 & \frac{-1}{jwC} & 0 & 0
+\\1 & -1 & 0 & 0 & -jwL & 0
+\end
+{bmatrix}\left(\begin{array}{c}
+
+V_1\\ 
+V_2\\
+I_1\\
+I_2\\
+I_3\\
+I_4
+\end
+{array}\right)
+=\left(\begin{array}{c}1\\0\\0\\0\\0\\0\end{array}\right)
+$$
+
 <figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption><p>電壓電流方程式矩陣表示法</p></figcaption></figure>
 
 {% code lineNumbers="true" %}
