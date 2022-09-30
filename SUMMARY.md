@@ -72,6 +72,7 @@
     * [如何列出特定目錄底下所有.aedt專案與專案包含的設計名稱](pyaedt/other/ru-he-lie-chu-te-ding-mu-lu-di-xia-suo-you-.aedt-zhuan-an-yu-zhuan-an-bao-han-de-she-ji-ming-cheng.md)
     * [輸出所有設計屬性](pyaedt/other/shu-chu-suo-you-she-ji-shu-xing.md)
 * [EDB](edb/README.md)
+  * [查詢Terminals](edb/cha-xun-terminals.md)
   * [在stackup當中插入新的layers](edb/zai-stackup-dang-zhong-cha-ru-xin-de-layers.md)
   * [修改padstack definition某一層的屬性](edb/xiu-gai-padstack-definition-mou-yi-ceng-de-shu-xing.md)
   * [輸出path跟polygon的座標點](edb/copy-of-t.md)
