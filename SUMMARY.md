@@ -22,6 +22,7 @@
     * [HFSS Layered Impedance計算](aedt-api/hfss/hfss-layered-impedance-ji-suan.md)
     * [HFSS Djordjevic Sarkar材料模型頻率變化公式字串輸出](aedt-api/hfss/hfss-djordjevic-sarkar-cai-liao-mo-xing-bin-shuai-bian-hua-gong-shi-zi-chuan-shu-chu.md)
   * [3D Layout](aedt-api/3d-layout/README.md)
+    * [輸出Excitations及其對應的Pin](aedt-api/3d-layout/shu-chu-excitations-ji-qi-dui-ying-de-pin.md)
     * [匯入.asc的程式碼](aedt-api/3d-layout/hui-ru-.asc-de-cheng-shi-ma.md)
     * [將沒有封閉的Polyline封閉成Polygon](aedt-api/3d-layout/jiang-mei-you-feng-bi-de-polyline-feng-bi-cheng-polygon.md)
     * [使用ElementTree處理stack.xml](aedt-api/3d-layout/shi-yong-elementtree-chu-li-stack.xml.md)
