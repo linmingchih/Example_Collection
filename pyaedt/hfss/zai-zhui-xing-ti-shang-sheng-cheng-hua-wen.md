@@ -4,15 +4,18 @@
 
 {% code lineNumbers="true" %}
 ```python
-xc = [10, 20, 30, 40, 50]
-yc = [100, 95, 70, 50, 20]
+xc = [30, 40, 50, 60 ]
+zc = [100, 80, 50, 10]
 
 cell = [(3, 0), (1, 1), (0, 3), (-1, 1) , (-3, 0), (-1, -1), (0, -3), (1, -1)]
 
 pitch_x = 10
 pitch_y = 10
 
-#%%
+# project_type = False will use wrap operation, thickneiss is ignored in wrap.
+project_type = True
+thickness = '0.1mm'
+
 from pyaedt import Hfss
 hfss = Hfss(specified_version='2022.2')
 hfss.modeler.model_units = 'mm'
@@ -21,8 +24,8 @@ import numpy as np
 from math import sin, cos, atan, radians, degrees, sqrt
 
 xc = np.array(xc)
-yc = np.array(yc)
-p = np.poly1d(np.polyfit(xc, yc, len(xc)-1))
+zc = np.array(zc)
+p = np.poly1d(np.polyfit(xc, zc, len(xc)-1))
 
 result = []
 class radome:
@@ -32,7 +35,7 @@ class radome:
         
         
     def create(self, x0, phi_degree):
-        r = 1
+        r = 0
         phi = radians(phi_degree)
         dx = 1e-6
         dy = self.poly(x0) - self.poly(x0+dx)
@@ -58,10 +61,10 @@ class radome:
   
     
 rado = radome(p, cell)
-r = hfss.modeler.create_polyline(list(zip(xc, [0]*len(xc), yc)))
+r = hfss.modeler.create_polyline(list(zip(xc, [0]*len(xc), zc)))
 
 xf = [i/1000 for i in xc]
-yf = [i/1000 for i in yc]
+yf = [i/1000 for i in zc]
 pf = np.poly1d(np.polyfit(xf, yf, 3))
 
 formula = []
@@ -74,9 +77,7 @@ formula='+'.join(formula)
     
 r = hfss.modeler.create_equationbased_curve('_t', 0, formula, min(xf), max(xf))
 hfss.modeler.sweep_around_axis(r, 2)
-
-
-
+hfss.modeler.thicken_sheet(r, '-1mm')
 
 xsample = np.arange(xc[0], xc[-1], 0.001)
 ysample = [p(i) for i in xsample]
@@ -98,18 +99,32 @@ ds = []
 
 for x in x_grid:
     phi = 0
-    while phi < 360:    
+    while phi <= 360 - degrees(pitch_y/x)/2:    
         result = rado.create(x, phi)
-        cell = hfss.modeler.create_polyline(result, close_surface=True, cover_surface=True)
-        hfss.oeditor.WrapSheet(
-     	[
-    		"NAME:Selections",
-    		"Selections:="		, "{},{}".format(cell.name, r.name)
-     	], 
-     	[
-    		"NAME:WrapSheetParameters",
-    		"Imprinted:="		, False
-     	])
+        cell = hfss.modeler.create_polyline(result, close_surface=True, cover_surface=True, matname='copper')
+        if project_type:
+            hfss.modeler.oeditor.ProjectSheet(
+            	[
+            		"NAME:Selections",
+            		"Selections:="		, "{},{}".format(cell.name, r.name)
+            	], 
+            	[
+            		"NAME:ProjectSheetParameters",
+            		"Thickness:="		, thickness,
+            		"DraftAngle:="		, "0deg",
+            		"KeepOriginals:="	, False
+            	])  
+        else:
+            hfss.modeler.oeditor.WrapSheet(
+             	[
+            		"NAME:Selections",
+            		"Selections:="		, "{},{}".format(cell.name, r.name)
+             	], 
+             	[
+            		"NAME:WrapSheetParameters",
+            		"Imprinted:="		, False
+             	])
+      
         phi += degrees(pitch_y/x)
 
 ```
