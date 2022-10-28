@@ -12,8 +12,7 @@ cell = [(3, 0), (1, 1), (0, 3), (-1, 1) , (-3, 0), (-1, -1), (0, -3), (1, -1)]
 pitch_x = 10
 pitch_y = 10
 
-# project_type = False will use wrap operation, thickneiss is ignored in wrap.
-project_type = True
+project_type = False
 thickness = '0.1mm'
 
 from pyaedt import Hfss
@@ -124,6 +123,7 @@ for x in x_grid:
             		"NAME:WrapSheetParameters",
             		"Imprinted:="		, False
              	])
+            hfss.modeler.thicken_sheet(cell.name, thickness)
       
         phi += degrees(pitch_y/x)
 
