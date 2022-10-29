@@ -1,5 +1,11 @@
 # 等距複製到曲面上面
 
+1.在中心建立pattern
+
+2\. 在XY平面第一象限建立多段線
+
+3.執行腳本，腳本會建立弧面並投影pattern到等間距位置。
+
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
