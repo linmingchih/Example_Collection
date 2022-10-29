@@ -16,6 +16,7 @@
     * [檢查 intersect物件](aedt-api/desktop/jian-cha-intersect-wu-jian.md)
   * [修改License類型](aedt-api/xiu-gai-license-lei-xing.md)
   * [HFSS](aedt-api/hfss/README.md)
+    * [等距複製到曲面上面](aedt-api/hfss/deng-ju-fu-zhi-dao-qu-mian-shang-mian.md)
     * [用來載入激發源設定的csv檔](aedt-api/hfss/yong-lai-zai-ru-ji-fa-yuan-she-ding-de-csv-dang.md)
     * [輸出變數及使用該變數的物件](aedt-api/hfss/shu-chu-bian-shu-ji-shi-yong-gai-bian-shu-de-wu-jian.md)
     * [計算選取物件的XYZ邊界](aedt-api/hfss/ji-suan-xuan-qu-wu-jian-de-xyz-bian-jie.md)
