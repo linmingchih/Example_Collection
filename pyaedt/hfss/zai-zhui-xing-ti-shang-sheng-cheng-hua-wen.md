@@ -1,6 +1,6 @@
 # 在錐形體上生成花紋
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 {% code lineNumbers="true" %}
 ```python
