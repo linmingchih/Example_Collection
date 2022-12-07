@@ -16,6 +16,7 @@
     * [檢查 intersect物件](aedt-api/desktop/jian-cha-intersect-wu-jian.md)
   * [修改License類型](aedt-api/xiu-gai-license-lei-xing.md)
   * [HFSS](aedt-api/hfss/README.md)
+    * [讀取多波束並重疊](aedt-api/hfss/du-qu-duo-bo-shu-bing-zhong-die.md)
     * [Bondwire碰撞檢查](aedt-api/hfss/bondwire-peng-zhuang-jian-cha.md)
     * [取得bondwire軌跡座標點](aedt-api/hfss/qu-de-bondwire-gui-ji-zuo-biao-dian.md)
     * [等距複製到曲面上面](aedt-api/hfss/deng-ju-fu-zhi-dao-qu-mian-shang-mian.md)
