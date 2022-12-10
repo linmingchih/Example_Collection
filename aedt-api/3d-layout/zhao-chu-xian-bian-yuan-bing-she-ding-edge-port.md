@@ -1,6 +1,19 @@
+---
+description: 在PCIE走線靠Pin端設定Edge Port
+---
+
 # 找出線邊緣並設定Edge Port
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+### 算法重點
+
+* 先透過netname屬性篩選出PCIE走線
+* 產生edge port需要知道該edge的編號，由於一條線的edge可能有數十個，無簡單方法法可以判斷尾端edge編號為何。
+* 因此，我先找出線上所有的點，抓出點的位置並判斷最小點或是最大點的座標與Pin重疊
+* 如果找出是Pt0與Pin重疊，產生由Pt0-Pt1新的線，並在該新的線上編號為0的edge上設定edge port。
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>找出靠Gold Finger端的edge設port</p></figcaption></figure>
+
+### 程式碼
 
 {% code lineNumbers="true" %}
 ```python
