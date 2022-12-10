@@ -4,7 +4,7 @@ description: 在PCIE走線靠Pin端設定Edge Port
 
 # 找出線邊緣並設定Edge Port
 
-### 算法重點
+### 說明
 
 * 先透過netname屬性篩選出PCIE走線
 * 產生edge port需要知道該edge的編號，由於一條線的edge可能有數十個，無簡單方法法可以判斷尾端edge編號為何。
