@@ -88,7 +88,6 @@ out = '{:>' + str(n) + '}: {:.6f}\n'
 
 with open(csv_path, 'w') as f:
     for i, net_name in sorted(length.keys()):
-        print(i)
         f.write(out.format(net_name, length[(i, net_name)]))
 
 oApp.GetActiveProject().ScrAddInfo('{} is saved!'.format(csv_path))
