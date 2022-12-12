@@ -1,6 +1,8 @@
 # 匯出Q3D選項設定
 
-從SIwave會除模型到Q3D，選項可以寫在options.config當中，檔案內部填寫
+### 重點
+
+* 要從SIwave匯出模型到Q3D，選項可以寫在options.config當中，檔案內部填寫設定參數
 
 ```
 LAUNCH_Q3D 1 
