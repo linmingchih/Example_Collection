@@ -47,6 +47,7 @@
   * [Icepak](aedt-api/icepak/README.md)
     * [輸出某個面的溫度分布檔案](aedt-api/icepak/shu-chu-mou-ge-mian-de-wen-du-fen-bu-dang-an.md)
 * [SIwave](siwave/README.md)
+  * [匯出Q3D選項設定](siwave/hui-chu-q3d-xuan-xiang-she-ding.md)
   * [輸出SIwave Bondwires長度](siwave/shu-chu-siwave-bondwires-chang-du.md)
   * [在編輯器環境編寫SIwave腳本](siwave/zai-bian-ji-qi-huan-jing-bian-xie-siwave-jiao-ben.md)
   * [設定Pin Group Port](siwave/she-ding-pin-group-port.md)
