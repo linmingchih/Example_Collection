@@ -1,5 +1,12 @@
 # 輸出SIwave Bondwires長度
 
+### 重點
+
+* 因為API沒有查詢bondwire屬性的函數，只能直接從.siw當中去找。
+* .siw當中的'B\_BONDWIRE\_3D\_PROFILES\_MOD\_GEN'模塊當中雖然有bondwire的路徑座標，但是編號是錯的。
+* 因此輸出.cmp元件，比較座標來找到pin編號，並透過pin編號找到net name。
+* 這個script並不具通用性，某些封裝設計可能無法正確執行。
+
 {% code lineNumbers="true" %}
 ```python
 from math import sqrt
