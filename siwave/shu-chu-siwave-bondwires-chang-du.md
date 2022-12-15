@@ -10,6 +10,9 @@
 {% code lineNumbers="true" %}
 ```python
 from math import sqrt
+# from win32com import client
+# oApp = client.Dispatch("SIwave.Application.2022.1")
+# oApp.RestoreWindow()
 
 siw_path = oApp.GetActiveProject().GetFilePath()
 cmp_path = siw_path.replace('.siw', '.cmp')
@@ -49,8 +52,11 @@ for line in text:
     
     elif key:
         try:
+            print(x)
             x = line.split()
-            net_name[int(x[2].replace('"',''))] = x[3]
+            part = x[1].replace('"','')
+            net = x[2].replace('"','').zfill(4)
+            net_name['{}_{}'.format(part, net)] = x[3]
         except:
             pass
 
@@ -64,7 +70,7 @@ for line in text:
     try:
         x, y, z = [float(i) for i in s[5:8]]
         ref_des, part, pin_name = s[8:11]
-        pin_info[(x, y)] = pin_name
+        pin_info[(x, y)] = (part, pin_name.zfill(4))
     except:
         pass
 
@@ -73,8 +79,8 @@ mapping = {}
 for i, locations in profile.items():
     x, y, z = locations[0]
     if (x, y) in pin_info:
-        pin_name = pin_info[(x, y)]
-        mapping[i] = int(pin_name)
+        part, pin_name = pin_info[(x, y)]
+        mapping[i] = '{}_{}'.format(part, pin_name)
 
             
 #%%
@@ -95,6 +101,7 @@ out = '{:>' + str(n) + '}: {:.6f}\n'
 
 with open(csv_path, 'w') as f:
     for i, net_name in sorted(length.keys()):
+        print(i)
         f.write(out.format(net_name, length[(i, net_name)]))
 
 oApp.GetActiveProject().ScrAddInfo('{} is saved!'.format(csv_path))
