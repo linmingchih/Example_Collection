@@ -4,7 +4,7 @@ description: 用來將GUI的.cs轉換成.py
 
 # 將C# Designer.cs轉換成.py
 
-
+我們在Visual Studio完成GUI設計時，存檔Form1.Designer.cs。接著便可以用以下方式將其轉換為可以用在AEDT的Python GUI。
 
 ```
 python convert.py c:/demo/Form1.Designer.cs d:/demo/gui.py
