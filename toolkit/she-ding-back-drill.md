@@ -1,6 +1,6 @@
 # 設定Back Drill
 
-![](<../.gitbook/assets/image (2) (2).png>)
+![](<../.gitbook/assets/image (2) (2) (2).png>)
 
 <details>
 

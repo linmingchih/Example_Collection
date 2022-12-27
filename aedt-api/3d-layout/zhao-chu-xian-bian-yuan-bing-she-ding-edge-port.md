@@ -11,7 +11,7 @@ description: 在PCIE走線靠Pin端設定Edge Port
 * 因此，我先找出線上所有的點，抓出點的位置並判斷最小點或是最大點的座標與Pin重疊
 * 如果找出是Pt0與Pin重疊，產生由Pt0-Pt1新的線，並在該新的線上編號為0的edge上設定edge port。
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>找出靠Gold Finger端的edge設port</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p>找出靠Gold Finger端的edge設port</p></figcaption></figure>
 
 ### 程式碼
 
