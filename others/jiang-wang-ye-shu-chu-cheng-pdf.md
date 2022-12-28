@@ -32,3 +32,5 @@ with open('d:/demo/Google1.pdf', 'wb') as file:
 driver.quit()
 ```
 {% endcode %}
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
