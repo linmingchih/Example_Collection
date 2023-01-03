@@ -100,6 +100,7 @@
   * [上傳檔案到遠端streamlit網頁伺服器](streamlit/shang-chuan-dang-an-dao-yuan-duan-streamlit-wang-ye-si-fu-qi.md)
   * [以Streamlit建立網頁GUI背景呼叫Nexxim.exe執行RC電路模擬](streamlit/yi-streamlit-jian-li-wang-ye-gui-bei-jing-hu-jiao-nexxim.exe-zhi-hang-rc-dian-lu-mo-ni.md)
 * [Others](others/README.md)
+  * [輸出中文到PDF檔案當中](others/shu-chu-zhong-wen-dao-pdf-dang-an-dang-zhong.md)
   * [將網頁輸出成PDF](others/jiang-wang-ye-shu-chu-cheng-pdf.md)
   * [重新排列S參數檔案ports順序並輸出檔案](others/zhong-xin-pai-liescan-shu-dang-an-ports-shun-xu-bing-shu-chu-dang-an.md)
   * [輸出License使用狀況](others/shu-chu-license-shi-yong-zhuang-kuang.md)

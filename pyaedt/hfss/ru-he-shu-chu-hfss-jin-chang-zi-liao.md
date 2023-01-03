@@ -27,6 +27,6 @@ plt.imshow(x, cmap='jet', extent = [u_min, u_max, v_min, v_max])
 ```
 {% endcode %}
 
-<figure><img src="../../.gitbook/assets/image (2) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
