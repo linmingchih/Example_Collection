@@ -234,4 +234,4 @@ print('output: {}'.format(output_path))
 
 以下是一個轉換出來的GUI範例：
 
-<figure><img src="../.gitbook/assets/image (2) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
